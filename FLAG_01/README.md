@@ -1,3 +1,5 @@
+FLAG 1 – htpasswd Exposé 
+
 Lors de l’énumération du serveur, on trouve un répertoire accessible :
 http://192.168.1.47/whatever/
 
