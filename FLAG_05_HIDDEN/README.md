@@ -7,6 +7,7 @@ Disallow: /whatever
 Disallow: /.hidden
 
 On recupère le contenu :
+
 wget -r --no-parent --execute robots=off http://192.168.1.47/.hidden/
 
 On rentre :
