@@ -15,6 +15,7 @@ cd 192.168.1.47/.hidden
 
 Tous les sous dossiers contiennent des fichiers README avec du texte en clair.
 On les parcourt tous et on filtre sur le mot "flag" :
+
 find . -type f -iname "README*" -exec cat {} + | grep -i flag
 
 <img width="651" height="58" alt="image" src="https://github.com/user-attachments/assets/6d233e77-40aa-4c73-a599-443754f1b8fe" />
