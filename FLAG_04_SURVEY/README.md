@@ -20,8 +20,8 @@ On utilise curl pour reproduire la requête attendu :
 curl -s -X POST "http://192.168.1.47/index.php?page=survey" \
   -d "sujet=1&valeur=9999"
 
+<img width="1596" height="577" alt="image" src="https://github.com/user-attachments/assets/32975380-2b6a-4a8b-84f3-b6020f0dc85e" />
 
-<img width="1596" height="577" alt="image" src="https://github.com/user-attachments/assets/f70f37da-dd88-4160-b39d-7c8e12b92f5b" />
 
 
 
