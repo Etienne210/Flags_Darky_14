@@ -10,7 +10,7 @@ On voit :
 htpasswd
 
 On télécharge le fichier :
-wget http://10.74.3.92/whatever/htpasswd
+wget http://192.168.1.47/whatever/htpasswd
 
 root:437394baff5aa33daa618be47b75cb49
 
