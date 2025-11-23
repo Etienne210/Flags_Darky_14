@@ -30,3 +30,5 @@ curl -s -X POST "http://192.168.1.47/index.php?page=recover" \
 La réponse nous envoie le flag:
 
 The flag is : 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
+
+La valeur envoyée dans mail= est ingorée. Le serveur utilise toujours la valeur du champ hidden.
