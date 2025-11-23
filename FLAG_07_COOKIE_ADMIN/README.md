@@ -1,11 +1,11 @@
 Flag 7 - Cookie Admin
 
-Quand on ouvre la page :
+On ouvre la page :
 
 http://192.168.1.47/
 
 
-En récupérant le html avec curl :
+On recupère le html avec curl :
 
 curl -I http://192.168.1.47
 
