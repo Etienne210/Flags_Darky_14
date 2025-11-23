@@ -4,9 +4,6 @@ Sur la page Survey, chaque ligne contient un formulaire permettant de donner une
 
 En inspectant le code HTML avec le navigateur, on voit des choses intéressantes :
 
-<form action="#" method="post">
-    <input type="hidden" name="sujet" value="1">
-    <select name="valeur" onChange="javascript:this.form.submit();">
 
 Cela signifie que le formulaire utilise le POST.
 
