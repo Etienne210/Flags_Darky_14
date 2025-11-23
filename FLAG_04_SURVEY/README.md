@@ -23,8 +23,8 @@ curl -s -X POST "http://192.168.1.47/index.php?page=survey" \
 
 
 
+<img width="1596" height="577" alt="image" src="https://github.com/user-attachments/assets/32975380-2b6a-4a8b-84f3-b6020f0dc85e" />
+
 
 
 The flag is : 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
-
-<img width="1596" height="577" alt="image" src="https://github.com/user-attachments/assets/32975380-2b6a-4a8b-84f3-b6020f0dc85e" />
