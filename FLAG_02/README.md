@@ -9,7 +9,7 @@ Le contenu change selon la valeur de la page.
 Donc on teste si on peut charger un autre fichier :
 ?page=test
 
-On a une erreur. Le serveur essaie bien de charger un fichier. Ce qui est une vulnérbilité.
+On a une erreur. Le serveur essaie bien de charger un fichier. Ce qui est une vulnérabilité.
 
 On test un fichier connu du serveur :
 ?page=../../etc/passwd
