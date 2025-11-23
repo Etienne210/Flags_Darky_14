@@ -1,4 +1,4 @@
-FLAG – LFI (Local File Inclusion)
+FLAG 2 – LFI (Local File Inclusion)
 
 Sur certaines pages comme :
 http://192.168.1.47/?page=home
