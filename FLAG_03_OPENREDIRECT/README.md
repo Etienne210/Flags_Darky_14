@@ -16,7 +16,7 @@ Le paramètre site n'est pas filtré, ce qui est une vulnérabilité Open Redire
 Sur certains challenges, les flags apparaissent quand on déclenche des comportements prévus. J'utilise donc un site bidon pour voir si le serveur réagit :
 http://192.168.1.47/?page=redirect&site=https://www.lebidonfrancais.com/
 
-Le serveur n'est pas une redirecteur normal.
+Le serveur n'est pas une redirection normal.
 
 <img width="1790" height="762" alt="image" src="https://github.com/user-attachments/assets/e82a8e76-d4df-4a4b-9b08-059b8a4b950b" />
 
