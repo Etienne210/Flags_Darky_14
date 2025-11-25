@@ -2,7 +2,7 @@ FLAG 2 – LFI (Local File Inclusion)
 
 Sur certaines pages comme :
 http://192.168.1.47/?page=home
-http://192.168.1.47/?page=survey
+
 
 Le contenu change selon la valeur de la page.
 
