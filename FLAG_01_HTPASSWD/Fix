@@ -1,0 +1,4 @@
+Pour éviter ce problème, il faut ne jamais laisser un fichier .htpasswd dans un répertoire accessible depuis le web. 
+Il doit être déplacé en dehors du webroot (ex : /etc/apache2/auth/). 
+Ensuite, il faut bloquer le listing des dossiers (Options -Indexes) et empêcher l’accès aux fichiers sensibles (<FilesMatch> Require all denied). 
+Enfin, il faut utiliser un hash sécurisé (bcrypt/argon2) plutôt que du MD5.
