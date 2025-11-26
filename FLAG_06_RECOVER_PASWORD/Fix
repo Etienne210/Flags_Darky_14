@@ -1,1 +1,4 @@
-
+Le problème vient du fait que la page utilise un champ hidden contenant une adresse mail fixe, et que le serveur se base dessus au lieu d’utiliser la valeur envoyée par l’utilisateur. 
+Cela permet à n’importe qui d’abuser de la fonction de récupération. 
+Pour corriger cela, il faut supprimer les champs cachés sensibles, demander une vraie saisie utilisateur, et utiliser uniquement la valeur entrée côté serveur. 
+Il faut aussi vérifier que le mail existe réellement avant d’envoyer une réponse.
