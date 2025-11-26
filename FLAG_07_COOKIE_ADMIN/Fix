@@ -1,1 +1,4 @@
-
+Le site utilise un cookie non sécurisé et facilement modifiable pour déterminer si un utilisateur est administrateur. 
+Comme la valeur du cookie n’est pas protégée ni signée, n’importe qui peut la changer et obtenir les privilèges admin. 
+Pour corriger cela, il faut ne jamais stocker les droits dans un simple cookie, mais utiliser des sessions serveur, des cookies signés ou chiffrés, et vérifier l’authentification à chaque requête. 
+Le serveur doit être le seul à décider si quelqu’un est admin, pas le navigateur.
