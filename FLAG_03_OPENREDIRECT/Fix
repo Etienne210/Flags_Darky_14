@@ -1,0 +1,4 @@
+Pour corriger cette vulnérabilité, il faut empêcher l’application de rediriger l’utilisateur vers une URL contrôlée par un paramètre non filtré. 
+Le paramètre site= doit être validé à l’aide d’une liste blanche de domaines autorisés, ou remplacé par des identifiants internes. 
+Il est également recommandé de refuser toute URL externe, ou de vérifier que la redirection reste dans le même domaine. 
+Enfin, il faut éviter d’utiliser directement header("Location: $_GET['site']") sans validation.
