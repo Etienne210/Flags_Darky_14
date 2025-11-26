@@ -1,4 +1,4 @@
 Le problème vient du fait qu’un dossier caché (/.hidden) était laissé accessible sur le serveur, et que le fichier robots.txt révélait son existence. 
 Pour éviter ça, il faut ne jamais mettre d’informations sensibles dans un dossier simplement “caché”, car il reste accessible par HTTP. 
-Le fichier robots.txt ne doit jamais contenir de chemins sensibles, car il sert uniquement aux moteurs de recherche, pas à la sécurité. 
+Le fichier robots.txt ne doit jamais contenir de chemins sensibles car il sert uniquement aux moteurs de recherche, pas à la sécurité. 
 Enfin, les dossiers sensibles doivent être protégés par des permissions serveur ou complètement déplacés hors du dossier web.
