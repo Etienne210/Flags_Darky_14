@@ -1,1 +1,4 @@
+Le site réutilise directement la valeur du paramètre src dans la page sans vérification. Cela permet d’y injecter du code JavaScript, qui s’exécute dans le navigateur (xss).
+
+Il faut filtrer et nettoyer la valeur reçue (pas de balises <script> et de données dangereuses) et empêcher toute interprétation de code en l'affichant comme du texte. 
 
