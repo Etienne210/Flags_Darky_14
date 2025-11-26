@@ -1,1 +1,4 @@
+Le champ de recherche n’est pas vérifié, ce qui permet d’injecter du SQL et d’afficher tout le contenu de la base. 
+Pour corriger cela, il faut accepter uniquement des valeurs normales pour l’ID (ex : des chiffres) et empêcher que le texte saisi puisse modifier la requête SQL.
 
+Il faut filtrer l’entrée et bloquer toute chaîne pouvant modifier la requête.
