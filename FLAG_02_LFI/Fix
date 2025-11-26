@@ -1,0 +1,4 @@
+Pour corriger cette vulnérabilité, l’application ne doit jamais inclure un fichier directement à partir d’un paramètre utilisateur. 
+Le paramètre page= doit être validé avec une liste blanche  des pages autorisées.
+Il faut également nettoyer l’entrée utilisateur pour bloquer les séquences comme ../ et empêcher toute traversée de répertoire. 
+Enfin, il est essentiel de désactiver l’affichage des erreurs en production pour éviter la fuite d’informations.
