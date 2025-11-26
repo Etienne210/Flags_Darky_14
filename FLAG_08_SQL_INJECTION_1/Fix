@@ -1,1 +1,5 @@
+Le problème vient du fait que le site reprend directement la valeur entrée dans la barre de recherche pour construire la requête SQL. 
+Comme cette valeur n’est pas vérifiée, on peut y ajouter du code SQL et accéder à des données qui ne devraient pas être visibles.
 
+Pour corriger cela, il faut vérifier que l’utilisateur entre  un ID normal (un chiffre uniquement) et empêcher d’ajouter du texte ou des caractères spéciaux. 
+Le site doit  séparer clairement les données envoyées par l’utilisateur de la requête, afin qu’aucun code SQL ne puisse être exécuté depuis ce champ.
