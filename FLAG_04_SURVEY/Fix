@@ -1,3 +1,5 @@
 Le site accepte n’importe quelle valeur envoyée dans le formulaire, ce qui permet de tricher et d’envoyer une note impossible. 
 Pour corriger ça, il suffit de vérifier côté serveur que les valeurs reçues sont normales, par exemple accepter seulement des notes entre 1 et 5. 
 Le site doit aussi ignorer tout ce qui ne correspond pas à ces valeurs, même si quelqu’un modifie la requête.
+
+Nous devons mettre en place une validation serveur côté back-end pour empêcher toute injection de valeurs non prévues.
